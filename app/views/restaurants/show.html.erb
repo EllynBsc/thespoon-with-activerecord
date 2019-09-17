@@ -6,3 +6,4 @@
 <%#= link_to 'delete this resto', restaurant_path(id: @restaurant.id)  %>
 <%= link_to 'delete this resto', restaurant_path(@restaurant), method: :delete, data: {confirm: 'are you really sure???'}  %>
 
+<%= link_to 'edit resto', edit_restaurant_path(@restaurant) %>
