@@ -1,0 +1,8 @@
+<%= @restaurant.name %>
+<%= @restaurant.address %>
+<%= @restaurant.stars %>
+
+
+<%#= link_to 'delete this resto', restaurant_path(id: @restaurant.id)  %>
+<%= link_to 'delete this resto', restaurant_path(@restaurant), method: :delete, data: {confirm: 'are you really sure???'}  %>
+
